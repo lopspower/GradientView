@@ -19,6 +19,8 @@ USAGE
 
 To make a gradient View add GradientView in your layout XML and add GradientView library in your project or you can also grab it via Gradle:
 
+:information_source: **PUBLICATION IN PROGRESS**
+
 ```groovy
 implementation 'com.mikhaellopez:gradientview:1.0.0'
 ```
