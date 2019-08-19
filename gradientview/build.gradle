@@ -29,12 +29,12 @@ dependencies {
 
 //region Publish to jCenter
 def libGroupId = 'com.mikhaellopez'
-def libArtifactId = 'libname'
+def libArtifactId = 'gradientview'
 def libVersion = androidVersionName
-def libDesc = ''
+def libDesc = 'Create gradient view in Android in the simplest way possible'
 def libLicenses = ['Apache-2.0']
-def libSiteUrl = 'https://github.com/lopspower/LibName'
-def libVCSUrl = 'https://github.com/lopspower/LibName.git'
+def libSiteUrl = 'https://github.com/lopspower/GradientView '
+def libVCSUrl = 'https://github.com/lopspower/GradientView.git'
 
 // Generate Source Jar
 task sourceJar(type: Jar) {
