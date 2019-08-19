@@ -100,13 +100,6 @@ class GradientView(context: Context, attrs: AttributeSet) : View(context, attrs)
                 Shader.TileMode.CLAMP)
     }
 
-    /**
-     * Transparent the given color by the factor
-     * The more the factor closer to zero the more the color gets transparent
-     *
-     * @param factor 1.0f to 0.0f
-     * @return int - A transplanted color
-     */
     private fun Int.adjustAlpha(factor: Float): Int {
         val alpha = (Color.alpha(this) * factor).roundToInt()
         val red = Color.red(this)
