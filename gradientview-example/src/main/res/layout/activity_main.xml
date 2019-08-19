@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ddd"
     android:gravity="center"
     android:orientation="vertical">
 
@@ -28,6 +29,15 @@
             app:gv_direction="left_to_right"
             app:gv_end="#d32e2e"
             app:gv_start="#3f51b5" />
+
+        <ImageView
+            android:id="@+id/btnChangeDirection"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="20dp"
+            android:src="@drawable/ic_rotate"
+            tools:ignore="ContentDescription" />
 
     </FrameLayout>
 
