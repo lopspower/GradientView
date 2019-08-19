@@ -5,6 +5,7 @@ GradientView 🌈
 
 [![Platform](https://img.shields.io/badge/platform-android-green.svg)](http://developer.android.com/index.html)
 [![API](https://img.shields.io/badge/API-16%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=16)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/43b87a9cabc84f51be0f6b72bb13b646)](https://app.codacy.com/app/lopspower/GradientView?utm_source=github.com&utm_medium=referral&utm_content=lopspower/GradientView&utm_campaign=Badge_Grade_Dashboard)
 <br>
 [![Twitter](https://img.shields.io/badge/Twitter-@LopezMikhael-blue.svg?style=flat)](http://twitter.com/lopezmikhael)
 
