@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="This lib is amazing"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <com.mikhaellopez.gradientview.GradientView
+            android:id="@+id/gradientView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:gv_direction="right_to_left"
+            app:gv_end="#cc0000"
+            app:gv_start="#3f51b5" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.larswerkman.lobsterpicker.sliders.LobsterShadeSlider
+            android:id="@+id/shadeSliderColorStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <SeekBar
+            android:id="@+id/seekBarAlphaStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:max="100"
+            android:progress="100" />
+
+        <com.larswerkman.lobsterpicker.sliders.LobsterShadeSlider
+            android:id="@+id/shadeSliderColorEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+        <SeekBar
+            android:id="@+id/seekBarAlphaEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:max="100"
+            android:progress="100" />
+
+    </LinearLayout>
+
+</LinearLayout>

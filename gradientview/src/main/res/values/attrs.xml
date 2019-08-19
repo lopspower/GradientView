@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GradientView">
+        <attr name="gv_start" format="color" />
+        <attr name="gv_alpha_start" format="float" />
+        <attr name="gv_end" format="color" />
+        <attr name="gv_alpha_end" format="float" />
+        <attr name="gv_direction">
+            <flag name="left_to_right" value="1" />
+            <flag name="right_to_left" value="2" />
+            <flag name="top_to_bottom" value="3" />
+            <flag name="bottom_to_top" value="4" />
+        </attr>
+    </declare-styleable>
+</resources>

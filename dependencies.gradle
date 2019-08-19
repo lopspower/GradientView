@@ -22,4 +22,7 @@ ext {
     androidAppCompatXVersion    = '1.0.2'
     androidXAppCompat           = "androidx.appcompat:appcompat:$androidAppCompatXVersion"
 
+    // UI
+    lobsterPickerVersion        = '1.0.1'
+    lobsterPicker               = "com.larswerkman:lobsterpicker:$lobsterPickerVersion"
 }

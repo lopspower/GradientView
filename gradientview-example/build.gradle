@@ -5,7 +5,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion androidCompileSdkVersion
     defaultConfig {
-        applicationId "com.mikhaellopez.libnamesample"
+        applicationId "com.mikhaellopez.gradientviewsample"
         minSdkVersion androidMinSdkVersion
         targetSdkVersion androidTargetSdkVersion
         versionCode 1
@@ -24,11 +24,13 @@ android {
 }
 
 dependencies {
-    implementation project(':libname')
+    implementation project(':gradientview')
     //implementation "com.mikhaellopez:libname:$androidVersionName"
 
     // KOTLIN
     implementation kotlinStdlib
     // ANDROID
     implementation androidXAppCompat
+    // UI
+    implementation lobsterPicker
 }
