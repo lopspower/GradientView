@@ -24,7 +24,7 @@ class GradientView(context: Context, attrs: AttributeSet) : View(context, attrs)
         }
     var alphaStart: Float = 1f
         set(value) {
-            field = if (value > 1f) 1f else if (value < 0f) 0f else value
+            field = value.coerceIn(0f, 1f)
             update()
         }
     var end: Int = Color.WHITE
@@ -34,7 +34,7 @@ class GradientView(context: Context, attrs: AttributeSet) : View(context, attrs)
         }
     var alphaEnd: Float = 1f
         set(value) {
-            field = if (value > 1f) 1f else if (value < 0f) 0f else value
+            field = value.coerceIn(0f, 1f)
             update()
         }
     var direction: GradientDirection = GradientDirection.LEFT_TO_RIGHT
@@ -52,7 +52,6 @@ class GradientView(context: Context, attrs: AttributeSet) : View(context, attrs)
         // Load the styled attributes and set their properties
         val attributes = context.obtainStyledAttributes(attrs, R.styleable.GradientView, 0, 0)
 
-        // Init Circle Color
         start = attributes.getColor(R.styleable.GradientView_gv_start, start)
         alphaStart = attributes.getFloat(R.styleable.GradientView_gv_alpha_start, alphaStart)
         end = attributes.getColor(R.styleable.GradientView_gv_end, end)
