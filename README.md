@@ -11,6 +11,10 @@ GradientView 🌈
 
 This is an Android project allowing to realize a gradient View in the simplest way possible. Finish the gradient shapes of all colors in your projects.
 
+<a href="https://play.google.com/store/apps/details?id=com.mikhaellopez.lopspower">
+  <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
+</a>
+
 USAGE
 -----
 
