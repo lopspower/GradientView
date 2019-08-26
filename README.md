@@ -84,7 +84,14 @@ gradientView.setAlphaEnd(0.5f);
 gradientView.setDirection(GradientView.GradientDirection.TOP_TO_BOTTOM);
 ```
 
+SUPPORT :heart:
+-----
+
+Find this library useful? Support it by joining [**stargazers**](https://github.com/lopspower/GradientView/stargazers) for this repository ⭐️
+<br/>
+And [**follow me**](https://github.com/lopspower?tab=followers) for my next creations 👍
+
 LICENCE
 -----
 
-CircleView by [Lopez Mikhael](http://mikhaellopez.com/) is licensed under a [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+GradientView by [Lopez Mikhael](http://mikhaellopez.com/) is licensed under a [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
