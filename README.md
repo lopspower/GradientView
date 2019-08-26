@@ -84,7 +84,7 @@ gradientView.setAlphaEnd(0.5f);
 gradientView.setDirection(GradientView.GradientDirection.TOP_TO_BOTTOM);
 ```
 
-SUPPORT :heart:
+SUPPORT ❤️
 -----
 
 Find this library useful? Support it by joining [**stargazers**](https://github.com/lopspower/GradientView/stargazers) for this repository ⭐️
