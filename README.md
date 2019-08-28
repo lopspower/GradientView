@@ -5,9 +5,10 @@ GradientView 🌈
 
 [![Platform](https://img.shields.io/badge/platform-android-green.svg)](http://developer.android.com/index.html)
 [![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/43b87a9cabc84f51be0f6b72bb13b646)](https://app.codacy.com/app/lopspower/GradientView?utm_source=github.com&utm_medium=referral&utm_content=lopspower/GradientView&utm_campaign=Badge_Grade_Dashboard)
+[![Download](https://api.bintray.com/packages/lopspower/maven/com.mikhaellopez:gradientview/images/download.svg?version=1.1.0)](https://bintray.com/lopspower/maven/com.mikhaellopez:gradientview/1.1.0/link)
 <br>
 [![Twitter](https://img.shields.io/badge/Twitter-@LopezMikhael-blue.svg?style=flat)](http://twitter.com/lopezmikhael)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/43b87a9cabc84f51be0f6b72bb13b646)](https://app.codacy.com/app/lopspower/GradientView?utm_source=github.com&utm_medium=referral&utm_content=lopspower/GradientView&utm_campaign=Badge_Grade_Dashboard)
 
 This is an Android project allowing to realize a gradient View in the simplest way possible. Finish the gradient shapes of all colors in your projects.
 
